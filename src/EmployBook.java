@@ -8,7 +8,7 @@ public class EmployBook {
     }
 
     private void addEmployee(Employee employee) {
-        if (count < 150) {
+        if (count < employees.length) {
             employees[count] = employee;
             count++;
             System.out.println("Сотрудник " + employee.getName() + " добавлен.");

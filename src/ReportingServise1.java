@@ -5,6 +5,7 @@ public class ReportingServise1 {
         employBook.addNewEmployee("Петров Петр Викторович", 2, 63300);
         employBook.addNewEmployee("Солонар Елена Михайловна", 3, 73500);
         employBook.addNewEmployee("Солонар Вячеслав Вячеславович",4, 98400);
+        employBook.addNewEmployee("Солонар Руслан Вячеславович",5,120450);
 
         System.out.println("Вывод списка сотрудников.");
         employBook.listEmployees();
